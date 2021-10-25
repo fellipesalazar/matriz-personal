@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Matriz da Vida do Personal Trainer</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <script src="https://kit.fontawesome.com/5dd255bbbd.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="wow/css/libs/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main class="container" id="container">
+            <div class="back">
+                <div class="secao bem-vindo wow fadeInUp">
+<!--                    <img src="img/logo.png" alt="" class="logo">-->
+                    <h1>Olá, Personal!</h1>
+                    <h3>Seja bem-vindo ao quiz <b>Matriz da Vida do Personal Trainer</b>. Responda às perguntas de forma sincera, e no final confira em qual matriz você se encontra!</h3>
+                    <button id="go" class="btn padrao">Vamos começar</button>
+                </div>
+                <div tabindex="0" class="secao s1 wow fadeInUp">
+                    <h1>Pergunta 1/18</h1>
+                    <h3>Estou sobrecarregado com as tarefas do dia a dia e sempre tenho deixado coisas para depois</h3>
+                    <select name="p1" id="p1" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info one">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="1" class="secao s2 wow fadeInUp">
+                    <h1>Pergunta 2/18</h1>
+                    <h3>Estou insatisfeito com meus ganhos financeiros mensais</h3>
+                    <select name="p2" id="p2" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="2" class="secao s3 wow fadeInUp">
+                    <h1>Pergunta 3/18</h1>
+                    <h3>Não pratico nenhum tipo de atividade física regularmente</h3>
+                    <select name="p3" id="p3" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="3" class="secao s4 wow fadeInUp">
+                    <h1>Pergunta 4/18</h1>
+                    <h3>Estou passando por um momento de estresse na minha vida</h3>
+                    <select name="p4" id="p4" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="4" class="secao s5 wow fadeInUp">
+                    <h1>Pergunta 5/18</h1>
+                    <h3>Ando tão cansado que estou deixando de lado meus sonhos e projetos pessoais</h3>
+                    <select name="p5" id="p5" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="5" class="secao s6 wow fadeInUp">
+                    <h1>Pergunta 6/18</h1>
+                    <h3>Não tenho tempo para me dedicar à família, aos amigos e nem aos meus hobbies prediletos</h3>
+                    <select name="p6" id="p6" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="6" class="secao s7 wow fadeInUp">
+                    <h1>Pergunta 7/18</h1>
+                    <h3>Faz tempo que não tenho reconhecimento por meu trabalho ou por minhas conquistas pessoais</h3>
+                    <select name="p7" id="p7" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="7" class="secao s8 wow fadeInUp">
+                    <h1>Pergunta 8/18</h1>
+                    <h3>Nos últimos anos sinto que meu patrimônio pessoal não teve grandes progressos</h3>
+                    <select name="p8" id="p8" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="8" class="secao s9 wow fadeInUp">
+                    <h1>Pergunta 9/18</h1>
+                    <h3>Estou meio perdido quanto as coisas que preciso realizar na minha vida para dar o próximo passo</h3>
+                    <select name="p9" id="p9" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="9" class="secao s10 wow fadeInUp">
+                    <h1>Pergunta 10/18</h1>
+                    <h3>Não consigo relaxar aos fins de semana e aproveitar o meu tempo livre</h3>
+                    <select name="p10" id="p10" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="10" class="secao s11 wow fadeInUp">
+                    <h1>Pergunta 11/18</h1>
+                    <h3>Estou passando por um momento difícil e ainda não encontrei uma saída</h3>
+                    <select name="p11" id="p11" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="11" class="secao s12 wow fadeInUp">
+                    <h1>Pergunta 12/18</h1>
+                    <h3>Sinto que minha carreira está estagnada, sem promoções, sem networking de qualidade ou mesmo atualização</h3>
+                    <select name="p12" id="p12" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="12" class="secao s13 wow fadeInUp">
+                    <h1>Pergunta 13/18</h1>
+                    <h3>Estou sem tempo para dedicar a mim mesmo.</h3>
+                    <select name="p13" id="p13" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="13" class="secao s14 wow fadeInUp">
+                    <h1>Pergunta 14/18</h1>
+                    <h3>Tenho dificuldades para dormir ou tenho uma qualidade de sono deteriorada.</h3>
+                    <select name="p14" id="p14" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="14" class="secao s15 wow fadeInUp">
+                    <h1>Pergunta 15/18</h1>
+                    <h3>Estou passando por um momento de dificuldade financeira na minha vida.</h3>
+                    <select name="p15" id="p15" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="15" class="secao s16 wow fadeInUp">
+                    <h1>Pergunta 16/18</h1>
+                    <h3>Não consegui fazer os cursos importantes para a minha carreira.</h3>
+                    <select name="p16" id="p16" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="16" class="secao s17 wow fadeInUp">
+                    <h1>Pergunta 17/18</h1>
+                    <h3>Não estou conseguindo economizar para investir em projetos que gostaria de realizar.</h3>
+                    <select name="p17" id="p17" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="17" class="secao s18 wow fadeInUp">
+                    <h1>Pergunta 18/18</h1>
+                    <h3>Moro em um local desconfortável, pouco seguro e pouco prazeroso para mim e para a minha família.</h3>
+                    <select name="p18" id="p18" class="select" required>
+                        <option value="1">NUNCA</option>
+                        <option value="2">RARAMENTE</option>
+                        <option value="3">ÀS VEZES</option>
+                        <option value="4">SEMPRE</option>
+                    </select>
+                    <div class="info">
+                        <img src="img/enter.png" alt="" class="enter">
+                        <p>Pressione <b>Enter↲</b> para continuar</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> ou <b><i class="fas fa-arrow-down"></i></b> para navegar entre as perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                        <div class="nav-next">
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div tabindex="18" class="secao s19 wow fadeInUp">
+                    <h1>Respostas salvas!</h1>
+                    <h3>Ótimo trabalho, já coletamos todas as suas respostas. Agora basta apertar no botão abaixo para descobrir em qual matriz você se encontra!</h3>
+                    <button id="calcular" class="btn padrao">calcular meu resultado</button>
+                    <div class="info one">
+                        <p>Pressione <b><i class="fas fa-arrow-up"></i></b> para retornar às perguntas</p>
+                    </div>
+                    <div class="nav">
+                        <div class="nav-prev">
+                            <i class="fas fa-angle-left"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="matriz m4 wow fadeInUp">
+                    <h1>Matriz 4</h1>
+                    <h2>ALTO Equilíbrio | ALTO Resultado</h2>
+                    <h3 class="texto">Parabéns! Você é o que chamo de <b>REALIZADOR</b> e pessoas nessa célula conseguiram chegar a uma posição confortável (não necessariamente no topo), tem uma carreira sólida, conseguiu estabilidade ou até mesmo a sua independência financeira, desfruta de muitos momentos de lazer sozinho e/ou em família, cuidam do corpo e da mente e está sempre em harmonia com o ambiente e com as pessoas que convivem.</h3>
+                    <h3 class="texto">Profissionais realizadores infelizmente são muito escassos e não representam sequer 5% do mercado de trabalho do personal trainer. São pessoas que conseguiram ganhar uma boa quantia durante a sua carreira e pouparam dinheiro, investindo-o em aplicações ou na construção de patrimônio. Essas pessoas conseguiram fazer o dinheiro trabalhar para elas e não o contrário! Hoje trabalham menos, cobram cada vez mais caro e sempre tem uma fila de espera aguardando ansiosamente para pagar caro pelos seus serviços. </h3>
+                    <h3 class="texto">Além disso são profissionais que se dedicam a família e aos seu tempo, cuidando da sua aparência e mantendo-se saudável sempre. Gostam de viajar e de lugares requintados, mas não saem gastando seu dinheiro de qualquer maneira pois sabem da dificuldade que é entrar no ciclo ganhar – poupar – investir. Tenha esse profissional como exemplo e batalhe diariamente para quando conseguir chegar aqui, nunca mais você saia dessa célula.</h3>
+                    <button class="btn padrao refazer">refazer o quiz</button>
+                </div>
+                <div class="matriz m3 wow fadeInUp">
+                    <h1>Matriz 3</h1>
+                    <h2>BAIXO Equilíbrio | ALTO Resultado</h2>
+                    <h3 class="texto">Você é o famoso profissional <b>ESTRESSADO</b> e por mais resultado que você tenha, a sua vida parece ser o “caos”. Existem muitas pessoas vivendo nessa situação, focadas apenas no TER e esquecendo completamente do SER. O grande problema que vejo aqui é que normalmente esses profissionais não conseguem se enxergar assim e isso acaba deixando a sua vida cada vez mais caótica.</h3>
+                    <h3 class="texto">Essa célula é extremamente sorrateira pois ela “rouba” a vida das pessoas aos poucos só que vai presenteando-as com pequenos “brindes” enquanto cada vez mais lhes tira a essência do dia a dia. É o que chamo de castelo de areia e uma hora o castelo simplesmente desmorona e a vida cobra o seu preço.</h3>
+                    <h3 class="texto">Profissionais nessa célula tem sempre um sentimento de que está realizando algo e persiste firmemente para alcançar os seus sonhos, entretanto tudo tem um limite e a linha entre o sucesso profissional e o fracasso pessoal é muito tênue. Quem vê de fora muitas vezes não percebe isso e vendo os resultados e os pouquíssimos momentos de lazer (normalmente postados nas mídias sociais) acham que profissionais dessa célula tem a vida perfeita. Entretanto, mais cedo ou mais tarde esse desequilíbrio vai se manifestar de alguma forma seja com problemas de saúde, de relacionamento, de comportamento dos filhos ou a perda do prazer.</h3>
+                    <h3 class="texto">Os personais que se enquadram nessa situação são os chamados <i>workaholic</i> (viciado em trabalho”, que tem muitos alunos, trabalham o dia inteiro, cobram um valor alto e jamais querem ter tempo livre. Se aparece um aluno para treinar no seu horário de descanso ele aceita sem pestanejar, mesmo que seja prejudicial para a sua saúde. Dificilmente esses personais conseguem treinar, se alimentam super mal e estão sempre cansados. Momentos de lazer em família são sempre escassos e os seus sábados e domingos também são muitas vezes utilizados para aulas de reposição. O grande problema é que pessoas assim acabam se viciando nesse “estilo de vida” e passam a aceitar essa situação, só diminuindo o ritmo quando algo mais sério acontece e mostra que independente do alto resultado, todas as pessoas precisam de equilíbrio.</h3>
+                    <button class="btn padrao refazer">refazer o quiz</button>
+                </div>
+                <div class="matriz m2 wow fadeInUp">
+                    <h1>Matriz 2</h1>
+                    <h2>BAIXO Equilíbrio | BAIXO Resultado</h2>
+                    <h3 class="texto">Como a minha função aqui é falar a verdade, você precisa saber que você está no lugar onde absolutamente ninguém deveria estar. Mas não se desespere e saiba que infelizmente essa situação não apenas é extremamente comum, como é a situação mais predominante da vida das pessoas.  Você é o profissional que eu chamo de <b>PERDIDO</b>!</h3>
+                    <h3 class="texto">Profissionais que estão nessa célula estão completamente perdidos, sem saber o que fazer e principalmente, em como sair dessa incômoda situação. Para essas pessoas a vida se tornou apenas uma sucessão de fatos cansativos, estressantes e que, com baixos resultados, não os ajuda a sair do lugar. Profissionais PERDIDOS normalmente trabalham muito, sofrem grandes pressões em suas rotinas de trabalho e ao fim do dia não apenas se sentem cansadas, mas apresentam transtornos físicos como dores  nas costas, dores de cabeça e falta de disposição até para tomar banho, jantar e ir para a cama antes de começar tudo denovo no dia seguinte.</h3>
+                    <h3 class="texto">O grande problema que vejo nessa célula é que com um grande desequilíbrio, a pessoa não tem forças para alcançar resultados. Ela simplesmente não consegue utilizar a sua energia pessoal para desenvolver as suas metas, traçar novos planos e estratégias, investir na carreira e fazer networking. Com isso tornam-se frustradas, inseguras e acabam focando mais nos problemas do que nas soluções.</h3>
+                    <h3 class="texto">Quem se enquadra nessa situação normalmente são os profissionais que cobram pouco, não gostam de estudar, não são especialistas e fazem tudo completamente igual a maioria, o chamado efeito ‘manada”. Se você está nessa célula você precisa rapidamente aplicar um novo modelo mental e exigir de si mesmo pequenas mudanças diárias e semanais, fazendo com que você consiga progredir rapidamente. Lembre-se do que vou te falar para sempre: essa célula não é um estilo de vida e não é uma posição confortável, muito pelo contrário, é um lugar crítico, difícil e que leva o indivíduo a se deprimir e viver no limite. Não se permita ficar muito tempo aqui e faça o que for preciso para mudar e sair dessa incômoda situação rapidamente!</h3>
+                    <button class="btn padrao refazer">refazer o quiz</button>
+                </div>
+                <div class="matriz m1 wow fadeInUp">
+                    <h1>Matriz 1</h1>
+                    <h2>ALTO Equilíbrio | BAIXO Resultado</h2>
+                    <h3 class="texto">Você é o que eu chamo de <b>CONFORMADO</b>! Pessoas como você conseguiram conquistar um alto nível de equilíbrio na vida apesar de apresentarem baixos resultados. Em um primeiro momento isso pode parecer estranho pois, como uma pessoa pode ter equilíbrio se ela quase não tem resultado? Antes de mais nada, preciso que você entenda que baixo resultado nem sempre representa não ter dinheiro ou uma carreira, muito pelo contrário, às vezes a pessoa tem um determinado padrão de ganho mensal que supre as suas necessidades e tem uma carreira em andamento, sendo assim ela acredita que isso é mais do que suficiente.</h3>
+                    <h3 class="texto">Essa situação é extremamente comum pois existem profissionais que chegam a um determinado ponto de vida em que simplesmente deixam de desejar algo mais. Para eles, o que alcançaram até o momento é suficiente para tocar a sua vida e qualquer coisa diferente disso pode trazer um grande transtorno e consequentemente uma queda no seu equilíbrio.</h3>
+                    <h3 class="texto">Um grupo de personais define bem essa situação: é aquele profissional que já está a bastante tempo no mercado e tem uma carreira consolidada, porém nunca conseguiu se destacar e nem atingir os seus sonhos e objetivos, sendo assim acabou deixando-os de lado. Esse profissional “sempre dá um jeitinho”, atrasa uma conta aqui, baixa o preço de um outro aluno ali, mas nunca consegue alavancar a sua carreira de uma vez por todas.</h3>
+                    <h3 class="texto">Profissionais com esse perfil transmitem uma falsa sensação de que está tudo bem só que o problema é que a vida não é constante como imaginam e podem surgir fatores que não temos controle como crises, desemprego e doença, sendo assim o frágil ambiente da célula 1 faz a situação ruir rapidamente.</h3>
+                    <button class="btn padrao refazer">refazer o quiz</button>
+                </div>
+            </div>
+        </main>
+        <script src="js/jquery.js"></script>
+        <script src="nice-select/js/jquery.nice-select.js"></script>
+        <script src="wow/dist/wow.js"></script>
+        <script>
+        
+            $("#calcular").click(function(){
+                
+                $(".s19").hide();
+                
+                var p1 = parseInt($("#p1").val());
+                var p2 = parseInt($("#p2").val());
+                var p3 = parseInt($("#p3").val());
+                var p4 = parseInt($("#p4").val());
+                var p5 = parseInt($("#p5").val());
+                var p6 = parseInt($("#p6").val());
+                var p7 = parseInt($("#p7").val());
+                var p8 = parseInt($("#p8").val());
+                var p9 = parseInt($("#p9").val());
+                var p10 = parseInt($("#p10").val());
+                var p11 = parseInt($("#p11").val());
+                var p12 = parseInt($("#p12").val());
+                var p13 = parseInt($("#p13").val());
+                var p14 = parseInt($("#p14").val());
+                var p15 = parseInt($("#p15").val());
+                var p16 = parseInt($("#p16").val());
+                var p17 = parseInt($("#p17").val());
+                var p18 = parseInt($("#p18").val());
+                
+                var resultado = p1+p2+p3+p4+p5+p6+p7+p8+p9+p10+p11+p12+p13+p14+p15+p16+p17+p18;
+                
+                if(resultado >= 18 && resultado <= 31) {
+                    $(".m4").show().css("display","flex");
+                }else if(resultado >= 32 && resultado <= 46){
+                    $(".m3").show().css("display","flex");
+                }else if(resultado >= 47 && resultado <= 59){
+                    $(".m1").show().css("display","flex");
+                }else if(resultado >= 60){
+                    $(".m2").show().css("display","flex");
+                }
+            });
+            
+            
+            $(".refazer").click(function(){
+                location.reload();
+            });
+            
+            
+            wow = new WOW({
+                live: true
+            });
+            wow.init();
+            
+            $(function(){
+                $(".select").niceSelect();
+            });
+            
+            $(window).click(function(){
+                $('.secao').focus(); 
+            });
+            
+            $("#go").click(function(){
+                $(".bem-vindo").hide();
+                $(".s1").show().css("display","flex").focus();
+            });
+            
+            $(document).ready(function(){
+                $(".secao").keypress(function(e){
+                    tecla = (e.keyCode?e.keyCode:e.which);
+                    if(tecla == 13){
+                        secao = $('.secao');
+                        indice = secao.index(this);
+                        if(secao[indice+1] != null){
+                            proximo = secao[indice + 1];
+                            atual = secao[indice];
+                            atual.style.display="none";
+                            proximo.style.display="flex";
+                            proximo.focus();
+                        }
+                    }
+                });
+            });
+            
+            $(function(){
+                $(".secao").keyup(function(e){
+                    if(e.keyCode === 38) {
+                        secao = $('.secao');
+                        indice = secao.index(this);
+                        if(secao[indice-1] != null){
+                            anterior = secao[indice - 1];
+                            atual = secao[indice];
+                            atual.style.display="none";
+                            anterior.style.display="flex";
+                            anterior.focus();
+                        }
+                    }
+                });
+            });
+            
+            $(function(){
+                $(".secao").keyup(function(e){
+                    if(e.keyCode === 40) {
+                        secao = $('.secao');
+                        indice = secao.index(this);
+                        if(secao[indice+1] != null){
+                            anterior = secao[indice + 1];
+                            atual = secao[indice];
+                            atual.style.display="none";
+                            anterior.style.display="flex";
+                            anterior.focus();
+                        }
+                    }
+                });
+            });
+            
+            $(function(){
+                $(".nav-prev").click(function(e){
+                    secao = $('.secao');
+                    indice = secao.index(this.closest(".secao"));
+                    if(secao[indice-1] != null){
+                        anterior = secao[indice - 1];
+                        atual = secao[indice];
+                        atual.style.display="none";
+                        anterior.style.display="flex";
+                        anterior.focus();
+                    }
+                });
+            });
+            
+            $(function(){
+                $(".nav-next").click(function(e){
+                    secao = $('.secao');
+                    indice = secao.index(this.closest(".secao"));
+                    if(secao[indice+1] != null){
+                        anterior = secao[indice + 1];
+                        atual = secao[indice];
+                        atual.style.display="none";
+                        anterior.style.display="flex";
+                        anterior.focus();
+                    }
+                });
+            });
+        
+        </script>
+    </body>
+</html>
